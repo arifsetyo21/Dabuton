@@ -1,5 +1,4 @@
- io.stdo
-ut:setvbuf('no') --print console messages in real time
+io.stdout:setvbuf('no') --print console messages in real time
 button = require "dabuton" --Require the library so we can use it.
 
 function love.load()
